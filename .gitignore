@@ -1,0 +1,60 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# =====================
+# IDE
+# =====================
+.vscode/
+.idea/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# Secrets / configs
+# =====================
+config.py
+.env
+.env.*
+
+wifi_config.py
+secrets.py
+
+# =====================
+# MicroPython temporary files
+# =====================
+*.mpy
+
+# =====================
+# LaTeX build files (if thesis compiled locally)
+# =====================
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# =====================
+# Test / debug files
+# =====================
+debug/
+tmp/
+temp/
